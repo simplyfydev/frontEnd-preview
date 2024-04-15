@@ -1,0 +1,47 @@
+.container {
+  max-width:100%; /* Adjusted for better layout */
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.full-width-textarea {
+  width: 100%; /* Make textarea full width */
+  height: 400px; /* Set a fixed height */
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none; /* Optional: prevent resizing */
+  font-size: 26px;
+}
+
+.submitButton {
+  float: right;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.full-width-input {
+  width: 100%; /* Ensures the input takes the full width of its container */
+  padding: 8px 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
