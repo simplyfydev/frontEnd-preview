@@ -11,7 +11,9 @@ function App() {
   const navigate = useNavigate();
 
   const handleTextChange = (event) => {
-    setTextValue(event.target.value);
+    const data = JSON.parse(event.target?.value || "null")
+    console.log({data})
+    setTextValue(data?.details);
   };
 
   const handleFoodNameChange = (event) => {
@@ -26,10 +28,11 @@ function App() {
       id: foodName?.id, // Assuming ID is assigned by the backend or is not needed
       food_name: foodName?.food_name,
       mongo_food_id,
-      details: textValue // ||JSON.parse(textValue || "null")
+      details: textValue
     };
 
-    console.log({ formData })
+    // console.log(formData)
+
     // return
     try {
       const response = await axios.post(apiUrl, formData, {
@@ -48,39 +51,8 @@ function App() {
     }
   };
 
-
-  const handleSubmit_2 = async (event) => {
-    event.preventDefault();
-    console.log("Submitted Text:", textValue);
-
-    const apiUrl = "http://presidiumludhiana.in:5030/api/v1/recipe/AddGeminiRecipe";
-
-    const data = {
-      id: foodName?.id, // Assuming ID is assigned by the backend or is not needed
-      food_name: foodName?.food_name,
-      mongo_food_id,
-      details: JSON.parse(textValue || "null")
-    };
-    try {
-      const response = await fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: data,
-      });
-
-      const responseData = await response.json();
-      if (response.ok) {
-        console.log("Server Response:", responseData);
-        // Optionally, redirect or handle the successful response
-      } else {
-        console.error("Server Error:", responseData);
-      }
-    } catch (error) {
-      console.error("Error posting data:", error);
-    }
-  };
+  // console.log({textValue})
+  console.log({ textValue })
 
   const fetchData = async () => {
     try {
@@ -117,7 +89,7 @@ function App() {
         <label>Food Description</label>
         <textarea
           onChange={handleTextChange}
-          value={textValue}
+          // value={textValue}
           className="full-width-textarea"
         />
 

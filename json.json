@@ -1,0 +1,427 @@
+{
+    "id": 102,
+    "food_name": "Sprouted Green Gram Raita",
+    "isInserted": true,
+    "details": {
+        "food_item": {
+            "name": "Sprouted Green Gram Raita",
+            "diet_suitability": {
+                "vegetarian": true,
+                "non-vegetarian": false,
+                "eggetarian": false
+            },
+            "benefits": [
+                "Rich in Protein and Fiber: Sprouted green gram is packed with protein and dietary fiber, both essential for promoting satiety and aiding in weight management. Protein helps build and repair tissues, while fiber keeps you feeling full for longer, reducing overall calorie intake.",
+                "Enhanced Nutrient Bioavailability: Sprouting enhances the bioavailability of nutrients in green gram, including vitamins (C, K, and B-complex) and minerals (iron, magnesium, and potassium). These nutrients play vital roles in various bodily functions, such as immune support, energy production, and nerve function.",
+                "Excellent Source of Iron: Sprouted green gram is particularly rich in iron, a crucial mineral for red blood cell production and oxygen transport. Adequate iron intake helps prevent anemia, a condition characterized by fatigue and weakness.",
+                "Gut-Friendly Probiotics: Yogurt in raita is a natural source of probiotics, beneficial bacteria that promote gut health. Probiotics aid digestion, improve nutrient absorption, and boost the immune system.",
+                "Low in Calories and Fat: This raita is inherently low in calories and fat, making it a suitable choice for those aiming to lose or maintain weight. It provides a satisfying and flavorful option without adding excessive calories to your diet.",
+                "Hydrating and Cooling: Raita's high water content, especially from cucumber and yogurt, makes it hydrating and cooling, particularly beneficial during hot weather or after a spicy meal."
+            ],
+            "benefits_in_hindi": [
+                "प्रोटीन और फाइबर से भरपूर: अंकुरित हरा चना प्रोटीन और आहार फाइबर से भरपूर होता है, जो तृप्ति को बढ़ावा देने और वजन प्रबंधन में सहायता करने के लिए आवश्यक हैं। प्रोटीन ऊतकों के निर्माण और मरम्मत में मदद करता है, जबकि फाइबर आपको लंबे समय तक भरा हुआ महसूस कराता है, जिससे समग्र कैलोरी की मात्रा कम हो जाती है।",
+                "पोषक तत्वों की जैव उपलब्धता में वृद्धि: अंकुरण हरे चने में पोषक तत्वों की जैव उपलब्धता को बढ़ाता है, जिसमें विटामिन (सी, के, और बी-कॉम्प्लेक्स) और खनिज (लोहा, मैग्नीशियम और पोटेशियम) शामिल हैं। ये पोषक तत्व विभिन्न शारीरिक कार्यों में महत्वपूर्ण भूमिका निभाते हैं, जैसे प्रतिरक्षा समर्थन, ऊर्जा उत्पादन और तंत्रिका कार्य।",
+                "आयरन का उत्कृष्ट स्रोत: अंकुरित हरा चना विशेष रूप से आयरन से भरपूर होता है, जो लाल रक्त कोशिका उत्पादन और ऑक्सीजन परिवहन के लिए एक महत्वपूर्ण खनिज है। पर्याप्त आयरन का सेवन एनीमिया को रोकने में मदद करता है, एक ऐसी स्थिति जिसमें थकान और कमजोरी होती है।",
+                "आंत के अनुकूल प्रोबायोटिक्स: रायता में दही प्रोबायोटिक्स का एक प्राकृतिक स्रोत है, लाभकारी बैक्टीरिया जो आंत के स्वास्थ्य को बढ़ावा देते हैं। प्रोबायोटिक्स पाचन में सहायता करते हैं, पोषक तत्वों के अवशोषण में सुधार करते हैं और प्रतिरक्षा प्रणाली को बढ़ावा देते हैं।",
+                "कैलोरी और वसा में कम: यह रायता स्वाभाविक रूप से कैलोरी और वसा में कम है, जो इसे वजन कम करने या बनाए रखने का लक्ष्य रखने वालों के लिए एक उपयुक्त विकल्प बनाता है। यह आपके आहार में अत्यधिक कैलोरी जोड़े बिना एक संतोषजनक और flavorful विकल्प प्रदान करता है।",
+                "हाइड्रेटिंग और कूलिंग: रायता की उच्च जल सामग्री, विशेष रूप से खीरे और दही से, इसे हाइड्रेटिंग और ठंडा बनाती है, विशेष रूप से गर्म मौसम के दौरान या मसालेदार भोजन के बाद फायदेमंद होती है।"
+            ],
+            "food_category": "Raitas",
+            "serving_unit": "Katori"
+        },
+        "consumption_time": {
+            "early_morning": {
+                "suitable": false,
+                "reason": "Heavy and may cause digestive discomfort if consumed on an empty stomach.",
+                "reason_in_hindi": "भारी और खाली पेट सेवन करने पर पाचन संबंधी परेशानी हो सकती है।"
+            },
+            "breakfast": {
+                "suitable": false,
+                "reason": "Better suited as a side dish with lunch or dinner.",
+                "reason_in_hindi": "दोपहर के भोजन या रात के खाने के साथ एक साइड डिश के रूप में बेहतर अनुकूल है।"
+            },
+            "mid-meal": {
+                "suitable": true,
+                "reason": "Provides a healthy and filling snack option to curb hunger pangs.",
+                "reason_in_hindi": "भूख के दर्द को रोकने के लिए एक स्वस्थ और भरपेट नाश्ते का विकल्प प्रदान करता है।"
+            },
+            "lunch": {
+                "suitable": true,
+                "reason": "Complements a balanced Indian lunch by adding freshness and aiding digestion.",
+                "reason_in_hindi": "ताजगी जोड़कर और पाचन में सहायता करके एक संतुलित भारतीय दोपहर के भोजन का पूरक है।"
+            },
+            "evening_snack": {
+                "suitable": true,
+                "reason": "Offers a light and nutritious snack to keep you satiated until dinner.",
+                "reason_in_hindi": "रात के खाने तक आपको तृप्त रखने के लिए हल्का और पौष्टिक नाश्ता प्रदान करता है।"
+            },
+            "dinner": {
+                "suitable": true,
+                "reason": "Serves as a refreshing and digestive side dish with dinner, especially after a spicy meal.",
+                "reason_in_hindi": "रात के खाने के साथ एक ताज़ा और पाचक साइड डिश के रूप में परोसता है, खासकर मसालेदार भोजन के बाद।"
+            },
+            "post-dinner": {
+                "suitable": false,
+                "reason": "Yogurt might cause discomfort for some if consumed too close to bedtime.",
+                "reason_in_hindi": "दही कुछ लोगों के लिए असुविधा पैदा कर सकता है अगर सोने के समय के बहुत करीब सेवन किया जाए।"
+            }
+        },
+        "health_condition_suitability": {
+            "Acidity": {
+                "suitable": false,
+                "not_suitable": true,
+                "conditional": false,
+                "reason": "Yogurt's acidic nature can exacerbate acidity symptoms for some individuals, leading to heartburn and discomfort.",
+                "reason_in_hindi": "दही की अम्लीय प्रकृति कुछ व्यक्तियों के लिए एसिडिटी के लक्षणों को बढ़ा सकती है, जिससे नाराज़गी और बेचैनी हो सकती है।"
+            },
+            "Acne": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "No direct link between sprouted green gram raita and acne aggravation. Its nutrient content may even promote skin health.",
+                "reason_in_hindi": "अंकुरित हरे चने के रायते और मुँहासे की वृद्धि के बीच कोई सीधा संबंध नहीं है। इसकी पोषक तत्व सामग्री त्वचा के स्वास्थ्य को भी बढ़ावा दे सकती है।"
+            },
+            "Anemia": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "The iron-rich nature of sprouted green gram helps increase hemoglobin levels, combating iron-deficiency anemia.",
+                "reason_in_hindi": "अंकुरित हरे चने की आयरन युक्त प्रकृति हीमोग्लोबिन के स्तर को बढ़ाने में मदद करती है, आयरन की कमी वाले एनीमिया का मुकाबला करती है।"
+            },
+            "Constipation": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "The combination of fiber from sprouts and probiotics from yogurt promotes regular bowel movements and prevents constipation.",
+                "reason_in_hindi": "स्प्राउट्स से फाइबर और दही से प्रोबायोटिक्स का संयोजन नियमित मल त्याग को बढ़ावा देता है और कब्ज को रोकता है।"
+            },
+            "Gestational Diabetes": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Can be consumed in moderation with blood sugar monitoring. The fiber and protein content can help regulate blood sugar levels but portion control is crucial.",
+                "reason_in_hindi": "ब्लड शुगर की निगरानी के साथ कम मात्रा में सेवन किया जा सकता है। फाइबर और प्रोटीन सामग्री रक्त शर्करा के स्तर को विनियमित करने में मदद कर सकती है लेकिन भाग नियंत्रण महत्वपूर्ण है।"
+            },
+            "Gas Problem": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Sprouts may cause gas in some individuals due to their high fiber content. Introduce gradually and monitor tolerance.",
+                "reason_in_hindi": "स्प्राउट्स कुछ व्यक्तियों में उनके उच्च फाइबर सामग्री के कारण गैस का कारण बन सकते हैं। धीरे-धीरे परिचय दें और सहनशीलता की निगरानी करें।"
+            },
+            "Cholesterol": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "Low in fat and cholesterol, making it beneficial for maintaining healthy cholesterol levels and reducing the risk of heart disease.",
+                "reason_in_hindi": "वसा और कोलेस्ट्रॉल में कम, स्वस्थ कोलेस्ट्रॉल के स्तर को बनाए रखने और हृदय रोग के जोखिम को कम करने के लिए इसे फायदेमंद बनाता है।"
+            },
+            "Hypertension": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "Low in sodium and rich in potassium, which helps regulate blood pressure and reduce the risk of hypertension.",
+                "reason_in_hindi": "सोडियम में कम और पोटेशियम से भरपूर, जो रक्तचाप को विनियमित करने और उच्च रक्तचाप के जोखिम को कम करने में मदद करता है।"
+            },
+            "Hypothyroidism": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Cruciferous vegetables like sprouts may interfere with thyroid hormone absorption. Consult a healthcare professional for personalized advice.",
+                "reason_in_hindi": "स्प्राउट्स जैसी क्रूसिफेरस सब्जियां थायराइड हार्मोन के अवशोषण में हस्तक्षेप कर सकती हैं। व्यक्तिगत सलाह के लिए एक स्वास्थ्य देखभाल पेशेवर से परामर्श करें।"
+            },
+            "Kidney Stones": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Individuals with oxalate kidney stones should moderate intake due to oxalates in sprouts. Consult a healthcare professional.",
+                "reason_in_hindi": "ऑक्सालेट किडनी स्टोन वाले व्यक्तियों को स्प्राउट्स में ऑक्सालेट के कारण सेवन कम करना चाहिए। एक स्वास्थ्य देखभाल पेशेवर से परामर्श करें।"
+            },
+            "Diabetes Type 1": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Can be incorporated into a diabetic meal plan with careful carbohydrate counting and blood sugar monitoring to manage insulin dosage.",
+                "reason_in_hindi": "इंसुलिन की खुराक का प्रबंधन करने के लिए सावधानीपूर्वक कार्बोहाइड्रेट गिनती और रक्त शर्करा की निगरानी के साथ मधुमेह भोजन योजना में शामिल किया जा सकता है।"
+            },
+            "Diabetes Type 2": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Beneficial due to fiber and protein content which help regulate blood sugar levels. Portion control and blood sugar monitoring are essential.",
+                "reason_in_hindi": "फाइबर और प्रोटीन सामग्री के कारण फायदेमंद जो रक्त शर्करा के स्तर को विनियमित करने में मदद करते हैं। भाग नियंत्रण और रक्त शर्करा की निगरानी आवश्यक है।"
+            },
+            "Hyperthyroidism": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "No known adverse effects of sprouted green gram raita on individuals with hyperthyroidism.",
+                "reason_in_hindi": "हाइपरथायरायडिज्म वाले व्यक्तियों पर अंकुरित हरे चने के रायते के कोई ज्ञात प्रतिकूल प्रभाव नहीं हैं।"
+            },
+            "PCOS": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "The high fiber and protein content can help regulate insulin levels and improve hormonal balance in women with PCOS.",
+                "reason_in_hindi": "उच्च फाइबर और प्रोटीन सामग्री पीसीओएस वाली महिलाओं में इंसुलिन के स्तर को विनियमित करने और हार्मोनल संतुलन में सुधार करने में मदद कर सकती है।"
+            },
+            "BP": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "Low sodium and high potassium content make it beneficial for managing blood pressure and reducing the risk of hypertension.",
+                "reason_in_hindi": "कम सोडियम और उच्च पोटेशियम सामग्री रक्तचाप को प्रबंधित करने और उच्च रक्तचाप के जोखिम को कम करने के लिए इसे फायदेमंद बनाती है।"
+            },
+            "Insulin Dependent": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Can be included in a diabetic meal plan with careful carbohydrate counting and blood sugar monitoring to adjust insulin dosage accordingly.",
+                "reason_in_hindi": "इंसुलिन की खुराक को तदनुसार समायोजित करने के लिए सावधानीपूर्वक कार्बोहाइड्रेट गिनती और रक्त शर्करा की निगरानी के साथ मधुमेह भोजन योजना में शामिल किया जा सकता है।"
+            },
+            "Pre-Diabetic": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "High fiber content helps regulate blood sugar levels and may reduce the risk of developing type 2 diabetes.",
+                "reason_in_hindi": "उच्च फाइबर सामग्री रक्त शर्करा के स्तर को विनियमित करने में मदद करती है और टाइप 2 मधुमेह के विकास के जोखिम को कम कर सकती है।"
+            },
+            "Heart Ailment": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "Low in fat and cholesterol, making it heart-healthy and suitable for individuals with heart conditions.",
+                "reason_in_hindi": "वसा और कोलेस्ट्रॉल में कम, इसे दिल के लिए स्वस्थ बनाता है और हृदय रोगों वाले व्यक्तियों के लिए उपयुक्त है।"
+            },
+            "Bloating": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Sprouts and yogurt may cause bloating in some individuals. Introduce gradually and monitor tolerance.",
+                "reason_in_hindi": "स्प्राउट्स और दही कुछ व्यक्तियों में सूजन का कारण बन सकते हैं। धीरे-धीरे परिचय दें और सहनशीलता की निगरानी करें।"
+            },
+            "Gall Bladder Removed": {
+                "suitable": true,
+                "not_suitable": false,
+                "conditional": false,
+                "reason": "Generally safe for individuals without a gallbladder as it's low in fat and easy to digest.",
+                "reason_in_hindi": "आमतौर पर पित्ताशय की थैली के बिना व्यक्तियों के लिए सुरक्षित है क्योंकि यह वसा में कम है और पचाने में आसान है।"
+            },
+            "IBS": {
+                "suitable": "conditional",
+                "not_suitable": false,
+                "conditional": true,
+                "reason": "Yogurt and sprouts might trigger symptoms in some individuals with IBS. Consult a healthcare professional for personalized guidance.",
+                "reason_in_hindi": "दही और स्प्राउट्स IBS वाले कुछ व्यक्तियों में लक्षणों को ट्रिगर कर सकते हैं। व्यक्तिगत मार्गदर्शन के लिए एक स्वास्थ्य देखभाल पेशेवर से परामर्श करें।"
+            }
+        },
+        "recipe_for_weight_loss": {
+            "ingredients": [
+                {
+                    "common_kitchen_name": {
+                        "english": "Sprouted green gram",
+                        "hindi": "अंकुरित हरा चना"
+                    },
+                    "quantity": {
+                        "value": 0.5,
+                        "unit": "Cup"
+                    },
+                    "measurement": {
+                        "value": 100,
+                        "unit": "g"
+                    },
+                    "notes": "Soak whole green gram overnight, drain, and sprout for 1-2 days until small tails appear. Rinse thoroughly before using."
+                },
+                {
+                    "common_kitchen_name": {
+                        "english": "Low-fat yogurt",
+                        "hindi": "कम वसा वाला दही"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "unit": "Cup"
+                    },
+                    "measurement": {
+                        "value": 200,
+                        "unit": "g"
+                    },
+                    "notes": "Opt for plain, unsweetened yogurt. Greek yogurt can be used for a thicker consistency."
+                },
+                {
+                    "common_kitchen_name": {
+                        "english": "Cucumber",
+                        "hindi": "खीरा"
+                    },
+                    "quantity": {
+                        "value": 0.25,
+                        "unit": "Cup"
+                    },
+                    "measurement": {
+                        "value": 50,
+                        "unit": "g"
+                    },
+                    "notes": "Peel and finely chop or grate the cucumber for added texture and freshness."
+                },
+                {
+                    "common_kitchen_name": {
+                        "english": "Green chili",
+                        "hindi": "हरी मिर्च"
+                    },
+                    "quantity": {
+                        "value": 1,
+                        "unit": "Piece"
+                    },
+                    "measurement": {
+                        "value": 5,
+                        "unit": "g"
+                    },
+                    "notes": "Finely chop the green chili. Adjust quantity based on your spice preference."
+                },
+                {
+                    "common_kitchen_name": {
+                        "english": "Coriander leaves",
+                        "hindi": "धनिया पत्ती"
+                    },
+                    "quantity": {
+                        "value": 2,
+                        "unit": "Tablespoon"
+                    },
+                    "measurement": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "notes": "Wash and finely chop fresh coriander leaves for a burst of flavor and aroma."
+                },
+                {
+                    "common_kitchen_name": {
+                        "english": "Cumin powder",
+                        "hindi": "जीरा पाउडर"
+                    },
+                    "quantity": {
+                        "value": 0.5,
+                        "unit": "Teaspoon"
+                    },
+                    "measurement": {
+                        "value": 2.5,
+                        "unit": "g"
+                    },
+                    "notes": "Adds a warm and earthy flavor and aids digestion."
+                },
+                {
+                    "common_kitchen_name": {
+                        "english": "Black salt",
+                        "hindi": "काला नमक"
+                    },
+                    "quantity": {
+                        "value": 0.5,
+                        "unit": "Teaspoon"
+                    },
+                    "measurement": {
+                        "value": 2.5,
+                        "unit": "g"
+                    },
+                    "notes": "Provides a unique savory flavor and essential minerals."
+                }
+            ],
+            "preparation_instructions": [
+                "Rinse the sprouted green gram thoroughly under running water.",
+                "Finely chop the cucumber, green chili, and coriander leaves.",
+                "In a mixing bowl, combine the yogurt, sprouted green gram, cucumber, green chili, and coriander leaves.",
+                "Add cumin powder and black salt. Mix well to combine all ingredients.",
+                "Refrigerate for at least 30 minutes to allow the flavors to meld."
+            ],
+            "preparation_instructions_in_hindi": [
+                "अंकुरित हरे चने को बहते पानी के नीचे अच्छी तरह धो लें।",
+                "खीरा, हरी मिर्च और धनिया पत्ती को बारीक काट लें।",
+                "एक मिक्सिंग बाउल में दही, अंकुरित हरा चना, खीरा, हरी मिर्च और धनिया पत्ती मिलाएं।",
+                "जीरा पाउडर और काला नमक डालें। सभी सामग्रियों को मिलाने के लिए अच्छी तरह मिलाएं।",
+                "स्वाद को मिलने देने के लिए कम से कम 30 मिनट के लिए रेफ्रिजरेट करें।"
+            ],
+            "cooking_instructions": [],
+            "cooking_instructions_in_hindi": [],
+            "kitchen_name": "Sprouted Green Gram Raita",
+            "additional_tips": "For extra zing, add a squeeze of lemon juice. To enhance the nutritional value, sprinkle some roasted flaxseeds or chia seeds on top.",
+            "additional_tips_in_hindi": "अतिरिक्त ज़िंग के लिए, नींबू के रस का एक निचोड़ जोड़ें। पोषण मूल्य बढ़ाने के लिए, ऊपर से कुछ भुने हुए अलसी या चिया सीड्स छिड़कें।"
+        },
+        "nutrition_labels": {
+            "overall_recipe": {
+                "Calories": {
+                    "value": 250,
+                    "unit": "kcal"
+                },
+                "Protein": {
+                    "value": 15,
+                    "unit": "g"
+                },
+                "Carbohydrates": {
+                    "value": 30,
+                    "unit": "g"
+                },
+                "Dietary Fiber": {
+                    "value": 10,
+                    "unit": "g"
+                },
+                "Fats": {
+                    "value": 5,
+                    "unit": "g"
+                },
+                "Sodium": {
+                    "value": 200,
+                    "unit": "mg"
+                },
+                "Iron": {
+                    "value": 3,
+                    "unit": "mg"
+                }
+            },
+            "single_serving": {
+                "serving_size": {
+                    "quantity": 1,
+                    "unit": "Katori"
+                },
+                "Calories": {
+                    "value": 125,
+                    "unit": "kcal"
+                },
+                "Protein": {
+                    "value": 7.5,
+                    "unit": "g"
+                },
+                "Carbohydrates": {
+                    "value": 15,
+                    "unit": "g"
+                },
+                "Dietary Fiber": {
+                    "value": 5,
+                    "unit": "g"
+                },
+                "Fats": {
+                    "value": 2.5,
+                    "unit": "g"
+                },
+                "Sodium": {
+                    "value": 100,
+                    "unit": "mg"
+                },
+                "Iron": {
+                    "value": 1.5,
+                    "unit": "mg"
+                }
+            }
+        },
+        "preparation_and_serving_details": {
+            "preparation_time": {
+                "value": 15,
+                "unit": "minutes"
+            },
+            "serving_size": {
+                "value": 2,
+                "unit": "Katori"
+            },
+            "weight_loss_tip": "Replace high-calorie dips and sauces with this raita to add flavor and creaminess to your meals without the added guilt.",
+            "weight_loss_tip_in_hindi": "अपने भोजन में स्वाद और मलाई जोड़ने के लिए उच्च कैलोरी डिप्स और सॉस को इस रायते से बदलें, बिना अतिरिक्त अपराधबोध के।",
+            "serving_suggestion": "Serve chilled as a side dish with grilled meats, vegetable curries, or biryani for a refreshing and healthy accompaniment.",
+            "serving_suggestion_in_hindi": "एक ताज़ा और स्वस्थ संगत के लिए ग्रील्ड मीट, वेजिटेबल करी, या बिरयानी के साथ एक साइड डिश के रूप में ठंडा परोसें।"
+        }
+    }
+}

@@ -19,13 +19,13 @@ function TableView() {
     const fetchData = async () => {
         // console.log(id)
         const apiUrl = `http://presidiumludhiana.in:5030/api/v1/recipe/GetGeminiRecipeDetails/${id}`;
-        
         try {
             const response = await fetch(apiUrl);
+
             const data = await response.json();
-            setdummy(data)
-            if (response.ok && data.data.length > 0) {
-                const foodItem = data.data[0].details.food_item;
+            setdummy(data )
+            if (response.ok && data) {
+                const foodItem = data.data?.details.food_item;
                 setHeader(foodItem.name);
                 setDietData([{
                     id: 1,
@@ -33,7 +33,7 @@ function TableView() {
                     egg: foodItem.diet_suitability.eggetarian,
                     non_veg: foodItem.diet_suitability['non-vegetarian']
                 }]);
-                const healthConditions = data.data[0].details.health_condition_suitability;
+                const healthConditions = data.data?.details.health_condition_suitability;
                 const transformedDiseaseData = Object.keys(healthConditions).map((key, index) => ({
                     id: index,
                     diseaseName: key,
@@ -118,7 +118,8 @@ function TableView() {
 
 
     console.log({ id })
-    console.log({ dummy })
+
+    console.log({ dummy:dummy })
 
 
     return (
