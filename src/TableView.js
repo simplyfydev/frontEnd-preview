@@ -2,19 +2,28 @@ import React, { useState, useEffect } from 'react';
 import './TableView.css';
 import { Link, useLocation } from 'react-router-dom';
 
+
+// http://localhost:3030/api/v1/recipe/updateGeminiRecipe/661a4c3898865e9af89595b8
+// http://localhost:3030/api/v1/recipe/GetGeminiRecipeDetails/661a4c3898865e9af89595b8
+// http://localhost:3030/api/v1/recipe/GetGeminiRecipes
+
+
 function TableView() {
     const [header, setHeader] = useState('');
     const [dietData, setDietData] = useState([]);
+    const [dummy, setdummy] = useState('');
     const [diseaseData, setDiseaseData] = useState([]);
     const location = useLocation();
-    const { id } = location.state;
+    const { id } = location?.state || {};
 
     const fetchData = async () => {
-        console.log(id)
-        const apiUrl = "http://presidiumludhiana.in:5030/api/v1/recipe/GetGeminiRecipes";
+        // console.log(id)
+        const apiUrl = `http://presidiumludhiana.in:5030/api/v1/recipe/GetGeminiRecipeDetails/${id}`;
+        
         try {
             const response = await fetch(apiUrl);
             const data = await response.json();
+            setdummy(data)
             if (response.ok && data.data.length > 0) {
                 const foodItem = data.data[0].details.food_item;
                 setHeader(foodItem.name);
@@ -108,11 +117,15 @@ function TableView() {
     };
 
 
+    console.log({ id })
+    console.log({ dummy })
+
+
     return (
         <div className="table-container">
             <h1 className='heading'>{header}</h1>
             <label>Food Id</label>
-            <input type="nuber" value={id}  className="full-width-input" />
+            <input type="nuber" value={id} className="full-width-input" />
 
             <div className='diet-suitability'>
                 <h2>Diet Suitability</h2>

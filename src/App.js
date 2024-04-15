@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, } from 'react-router-dom';
 import './App.css';
 import axios from 'axios';
 
@@ -19,7 +19,6 @@ function App() {
   };
 
   const handleSubmit = async (event) => {
-    navigate('/table', { state: { id: foodName?.id } });
     event.preventDefault();
     const apiUrl = "http://presidiumludhiana.in:5030/api/v1/recipe/AddGeminiRecipe";
 
@@ -27,22 +26,28 @@ function App() {
       id: foodName?.id, // Assuming ID is assigned by the backend or is not needed
       food_name: foodName?.food_name,
       mongo_food_id,
-      details: JSON.parse(textValue || "null")
+      details: textValue // ||JSON.parse(textValue || "null")
     };
 
+    console.log({ formData })
+    // return
     try {
       const response = await axios.post(apiUrl, formData, {
         headers: {
           'Content-Type': 'application/json'
         }
       });
-      console.log('Data posted successfully:', response.data);
+
+      const data = response?.data?.data
+      console.log('Data posted successfully:', data);
+      navigate('/table', { state: { id: data._id } });
       alert('Data submitted successfully!');
     } catch (error) {
       console.error('Error posting data:', error);
       alert('Failed to submit data.');
     }
   };
+
 
   const handleSubmit_2 = async (event) => {
     event.preventDefault();
@@ -93,7 +98,7 @@ function App() {
     fetchData()
   }, [])
 
-  const handleGoToTable = ()=>{
+  const handleGoToTable = () => {
     navigate('/table', { state: { id: foodName?.id } });
   }
 
@@ -116,15 +121,15 @@ function App() {
           className="full-width-textarea"
         />
 
-        <Link to='/table'>
-          <button style={{ marginLeft: '10px' }} type="submit" className="submitButton">Submit</button>
-        </Link>
-        <Link to='/addNew'>
-          <button style={{ marginLeft: '10px' }} type="submit" className="submitButton">Add New</button>
-        </Link>
-       
-          <button onClick={handleGoToTable} style={{ marginLeft: '10px' }} type="submit" className="submitButton">Go To Table</button>
-        
+        {/* <Link to='/table'> */}
+        <button style={{ marginLeft: '10px' }} type="submit" className="submitButton">Submit</button>
+        {/* </Link> */}
+        {/* <Link to='/addNew'> */}
+        <button style={{ marginLeft: '10px' }} type="submit" className="submitButton">Add New</button>
+        {/* </Link> */}
+
+        <button onClick={handleGoToTable} style={{ marginLeft: '10px' }} type="submit" className="submitButton">Go To Table</button>
+
       </form>
     </div>
   );
